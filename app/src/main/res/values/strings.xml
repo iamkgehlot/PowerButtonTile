@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Realme Addons</string>
+    <string name="accessibility_service_description">Accessibility service to allow Power Button Tile to perform global actions: show system power dialog and, on Android Pie (API 28) and up, put the device to sleep, take screenshot.</string>
+    <string name="accessibility_service_label">Accessibility service</string>
+    <string name="system_power_dialog_tile_label">Game Mode \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 (Improve Touch sampling rate and Force 90hz)</string>
+    <string name="note">NOTE:-</string>
+    <string name="extile">Flashlight Tile, Dc-dimming Tile and HBM Tile are automatically added in QS panel. Just Drag and Drop and Enjoy</string>
+    <string name="sleep_tile_label">sRGB</string>
+    <string name="screenshot_tile_label">Force 90hz</string>
+    <string name="settings_tile_visibility">Tile visibility</string>
+    <string name="settings_component_summary_off">Hide the tile in the quick settings layout</string>
+    <string name="settings_component_summary_on">Show the tile in the quick settings layout</string>
+    <string name="settings_accessibility_service_summary_off">Disabled. The app is not allowed to perform any global action</string>
+    <string name="settings_accessibility_service_summary_on">Enabled. The app is allowed to perform any global action</string>
+    <string name="message_something_went_wrong">Something went wrong</string>
+    <string name="message_please_try_again">Please try again</string>
+    <string name="message_accessibility_service_disabled">Accessibility service is disabled.\nThe app is not allowed to perform any global action.\nPlease go back and enable accessibility service.</string>
+    <string name="settings_action">Action</string>
+    <string name="settings_screenshot_tile_action_collapse_take_screenshot">Collapse quick settings panel and Force 90Hz</string>
+    <string name="settings_screenshot_tile_action_take_screenshot">Force 90Hz without collapsing the quick settings panel</string>
+    <string name="settings_system_power_dialog_tile_action_collapse_show_dialog">Collapse quick settings panel and turn on Dc-Dimming</string>
+    <string name="settings_system_power_dialog_tile_action_show_dialog"> turn on Dc-Dimming without collapsing the quick settings panel</string>
+    <string name="links">SHOW SUPPORT</string>
+    <string name="source">UPI</string>
+    <string name="gsum">May affect battery life</string>
+    <string name="source_link" >iamkgehlot@dbs</string>
+
+    <string name="key_component_screenshot_tile" translatable="false">key_component_screenshot_tile</string>
+    <string name="key_component_sleep_tile" translatable="false">key_component_sleep_tile</string>
+    <string name="key_component_system_power_dialog_tile" translatable="false">key_component_system_power_dialog_tile</string>
+    <string name="key_component_accessibility_service" translatable="false">key_component_accessibility_service</string>
+    <string name="key_settings_category_screenshot" translatable="false">key_settings_category_screenshot</string>
+    <string name="key_settings_category_sleep" translatable="false">key_settings_category_sleep</string>
+    <string name="key_settings_category_system_power_dialog" translatable="false">key_settings_category_system_power_dialog</string>
+    <string name="key_screenshot_tile_action" translatable="false">key_screenshot_tile_action</string>
+    <string name="key_screenshot_tile_action_collapse_take_screenshot" translatable="false">key_screenshot_tile_action_collapse_take_screenshot</string>
+    <string name="key_screenshot_tile_action_take_screenshot" translatable="false">key_screenshot_tile_action_take_screenshot</string>
+    <string name="key_system_power_dialog_tile_action" translatable="false">key_system_power_dialog_tile_action</string>
+    <string name="key_system_power_dialog_tile_action_collapse_show_dialog" translatable="false">key_system_power_dialog_tile_action_collapse_show_dialog</string>
+    <string name="key_system_power_dialog_tile_action_show_dialog" translatable="false">key_system_power_dialog_tile_action_show_dialog</string>
+    <string name="monospace" translatable="false">monospace</string>
+    <string name="accessibility_service" translatable="false">Paypal</string>
+    <string name="tile" translatable="false">Telegram (for update)</string>
+    <string name="tile_service" translatable="false">Youtube</string>
+    <string name="accessibility_service_documentation_link" translatable="false">https://www.paypal.me/prokit97</string>
+    <string name="tile_documentation_link" translatable="false">https://t.me/technophile20</string>
+    <string name="tile_service_documentation_link" translatable="false">https://www.youtube.com/c/MrTechnophile20</string>
+
+</resources>

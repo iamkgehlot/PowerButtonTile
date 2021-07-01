@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        app:icon="@drawable/ic_accessibility_white_24dp"
+        app:key="@string/key_component_accessibility_service"
+        app:summaryOff="@string/settings_accessibility_service_summary_off"
+        app:summaryOn="@string/settings_accessibility_service_summary_on"
+        app:title="@string/accessibility_service_label" />
+
+    <!--screenshot tile-->
+    <PreferenceCategory
+        app:dependency="@string/key_component_accessibility_service"
+        app:icon="@drawable/ic_screenshot_white_24dp"
+        app:key="@string/key_settings_category_screenshot"
+        app:title="@string/screenshot_tile_label">
+
+        <SwitchPreference
+            app:key="@string/key_component_screenshot_tile"
+            app:summaryOff="@string/settings_component_summary_off"
+            app:summaryOn="@string/settings_component_summary_on"
+            app:title="@string/settings_tile_visibility" />
+
+        <ListPreference
+            app:defaultValue="@string/key_screenshot_tile_action_collapse_take_screenshot"
+            app:dependency="@string/key_component_screenshot_tile"
+            app:entries="@array/settings_screenshot_tile_action_entries"
+            app:entryValues="@array/settings_screenshot_tile_action_entry_values"
+            app:key="@string/key_screenshot_tile_action"
+            app:summary="%s"
+            app:title="@string/settings_action" />
+
+    </PreferenceCategory>
+
+    <!--sleep tile-->
+    <PreferenceCategory
+        app:dependency="@string/key_component_accessibility_service"
+        app:icon="@drawable/ic_sleep_white_24dp"
+        app:key="@string/key_settings_category_sleep"
+        app:title="@string/sleep_tile_label">
+
+        <SwitchPreference
+            app:key="@string/key_component_sleep_tile"
+            app:summaryOff="@string/settings_component_summary_off"
+            app:summaryOn="@string/settings_component_summary_on"
+            app:title="@string/settings_tile_visibility" />
+    </PreferenceCategory>
+
+    <!--system power dialog tile-->
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="0"
+        app:dependency="@string/key_component_accessibility_service"
+        app:icon="@drawable/ic_system_power_dialog_white_24dp"
+        app:key="@string/key_settings_category_system_power_dialog"
+        app:summary="@string/gsum"
+        app:title="@string/system_power_dialog_tile_label">
+        <SwitchPreference
+            app:key="@string/key_component_system_power_dialog_tile"
+            app:summaryOff="@string/settings_component_summary_off"
+            app:summaryOn="@string/settings_component_summary_on"
+            app:title="@string/settings_tile_visibility" />
+
+        <ListPreference
+            app:defaultValue="@string/key_system_power_dialog_tile_action_collapse_show_dialog"
+            app:dependency="@string/key_component_system_power_dialog_tile"
+            app:entries="@array/settings_system_power_dialog_tile_action_entries"
+            app:entryValues="@array/settings_system_power_dialog_tile_action_entry_values"
+            app:key="@string/key_system_power_dialog_tile_action"
+            app:summary="%s"
+            app:title="@string/settings_action" />
+    </PreferenceCategory>
+    <!--links-->
+    <PreferenceCategory
+        app:icon="@drawable/note"
+        app:title="@string/note">
+        <Preference
+            app:summary="@string/extile">
+        </Preference>
+    </PreferenceCategory>
+    <!--links-->
+    <PreferenceCategory
+        app:icon="@drawable/ic_link_white_24dp"
+        app:title="@string/links">
+        <!--source-->
+        <Preference
+            app:summary="@string/source_link"
+            android:textIsSelectable="true"
+            app:title="@string/source">
+        </Preference>
+
+        <!--accessibility service documentation-->
+        <Preference
+            app:summary="@string/accessibility_service_documentation_link"
+            app:title="@string/accessibility_service">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/accessibility_service_documentation_link" />
+        </Preference>
+
+        <!--tile documentation-->
+        <Preference
+            app:summary="@string/tile_documentation_link"
+            app:title="@string/tile">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/tile_documentation_link" />
+        </Preference>
+
+        <!--tileservice documentation-->
+        <Preference
+            app:summary="@string/tile_service_documentation_link"
+            app:title="@string/tile_service">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/tile_service_documentation_link" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
