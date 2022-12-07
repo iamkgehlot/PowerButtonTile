@@ -1,4 +1,4 @@
-<img src="https://github.com/rascarlo/PowerButtonTile/blob/master/fastlane/metadata/android/en-US/images/featureGraphic.png" width="640" height="333" />
+
 
 # PowerButtonTile
 <p>Simple application to add up to 3 quick settings tiles to the quick settings layout.</p>
@@ -8,10 +8,6 @@
 <p>Screenshot (GLOBAL_ACTION_TAKE_SCREENSHOT) has been added in API level 28 (https://developer.android.com/reference/android/accessibilityservice/AccessibilityService#GLOBAL_ACTION_TAKE_SCREENSHOT).<br>
 
 ___
-### Screenshots
-
-<img src="https://github.com/rascarlo/PowerButtonTile/blob/master/fastlane/metadata/android/en-US/phoneScreenshots/01.png" width="333" height="640" /> <img src="https://github.com/rascarlo/PowerButtonTile/blob/master/fastlane/metadata/android/en-US/phoneScreenshots/02.png" width="333" height="640" />
-
 ___
 ## Android Developers Documentation</p>
 - Accessibility service: https://developer.android.com/reference/android/accessibilityservice/AccessibilityService
